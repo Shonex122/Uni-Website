@@ -564,7 +564,7 @@ footer {
 
 /* MEDIA QUERY */
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .text-box h1 {
     font-size: 18px;
   }
@@ -597,6 +597,7 @@ footer {
   .row {
     flex-direction: column;
   }
+
   .testimonial-col img {
     margin-left: 0px;
     margin-right: 15px;
